@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+## vue-code-runner
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+本项目是允许你在浏览器编译并预览修改（就像你在本地那样引入包，使用包，并打包成一个整体）。
+ 
+> 为了保证性能，此项目将只支持现代浏览器。
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
