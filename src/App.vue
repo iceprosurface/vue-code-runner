@@ -87,6 +87,13 @@ const run = async () => {
 </script>
 
 <template>
+  <div>
+    <a
+      href="https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc"
+      target="_blank"
+      >使用浏览器插件解决跨域问题</a
+    >
+  </div>
   <div style="border: 1px solid sienna">
     <p>packages</p>
     <input v-model="name" />

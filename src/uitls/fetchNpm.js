@@ -3,7 +3,7 @@ import UrlParser from "url-parse";
 import init, { WasmTar } from "./WasmTar/wasm_tar";
 import { getPackage, savePackage } from "./db";
 
-const registry = "/npm/";
+const registry = "https://registry.npmjs.org/";
 export const getPackageJson = async (npmName) => {
   const res = await fetch(`${registry}${npmName}`);
   const { versions } = await res.json();
