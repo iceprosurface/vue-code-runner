@@ -1,6 +1,6 @@
 import compareVersions from "compare-versions";
 import UrlParser from "url-parse";
-import init, { WasmTar } from "../wasm/pkg/wasm_tar";
+import init, { WasmTar } from "./WasmTar/wasm_tar";
 import { getPackage, savePackage } from "./db";
 
 const registry = "/npm/";
