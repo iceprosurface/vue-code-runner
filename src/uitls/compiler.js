@@ -1,4 +1,3 @@
-import * as Babel from "@babel/standalone";
 import { reactive, ref } from "vue";
 import * as compiler from "vue-template-compiler";
 import { getPackage } from "../uitls/db";
@@ -105,16 +104,6 @@ export function createMiniFs() {
 }
 export const fs = createMiniFs();
 export const distFs = createMiniFs();
-
-Babel.registerPlugin("import", function () {
-  return {
-    visitor: {
-      ImportDeclaration(path, source) {
-        console.log(path, source);
-      },
-    },
-  };
-});
 
 export async function createAsset(filename) {
   console.time(filename);
